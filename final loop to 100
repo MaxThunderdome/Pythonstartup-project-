@@ -1,0 +1,21 @@
+i = 0
+j = 25
+k = j + 25
+l = k + 25
+while i < 25:
+    i = i + 1
+    a = i * i
+    j = j + 1
+    b = j * j
+    k = k + 1
+    c = k * k
+    l = l + 1
+    d = l * l
+    print(str(i).rjust(4," "), end = ' ')
+    print(str(a).rjust(4," "), end = ' ')
+    print(str(j).rjust(4, " "), end=' ')
+    print(str(b).rjust(4," "), end=' ')
+    print(str(k).rjust(4, " "), end=' ')
+    print(str(c).rjust(4, " "), end=' ')
+    print(str(l).rjust(4, " "), end=' ')
+    print(str(d).rjust(5," "))
